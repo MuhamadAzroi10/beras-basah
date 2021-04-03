@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BBB - Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form
+      action="index.html"
+      method="get"
+      id="myForm"
+      onsubmit=" return validasi()"
+    >
+      <div class="login">
+        <div class="login-box">
+          <h2>Welcome</h2>
+          <h4>Beras Basah Beach</h4>
+          <h3>Form Login</h3>
+          <div class="tempat-input">
+            <p>Username</p>
+            <input
+              type="text"
+              name="username"
+              value="Roi"
+              placeholder="Example : Roi"
+            />
+          </div>
+          <div class="tempat-input">
+            <p>Password</p>
+            <input
+              type="password"
+              name="password"
+              value="123"
+              placeholder="Example : 123"
+            />
+          </div>
+          <div class="tempat-login">
+            <input type="submit" class="login" name="submit" value="login" />
+          </div>
+        </div>
+      </div>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

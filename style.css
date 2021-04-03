@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:700|Poppins&display=swap");
+html {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body{
+  background-image: url("1.png");
+}
+
+.max-width {
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+section {
+  margin-top: 90px;
+}
+.tittle {
+  text-align: center;
+  color: red;
+}
+.bwh-tittle {
+  text-align: center;
+}
+
+/*navbar*/
+/*==================================================================================*/
+
+.navbar-brand img {
+  height: 50px;
+}
+.navbar-nav a {
+  text-decoration: none;
+  padding-left: 25px;
+  font-size: 18px;
+  color: black;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav a span {
+  background-color: #0398f7;
+  color: white;
+  padding-right: 25px;
+  padding-left: 25px;
+  border-radius: 10px;
+}
+
+.navbar-nav a:hover {
+  color: red;
+}
+.navbar-nav a span:hover {
+  color: black;
+}
+
+/*Home*/
+/*==================================================================================*/
+
+.Home h3 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 40px;
+}
+.Home h1 {
+  font-weight: bold;
+  font-size: 55px;
+}
+.Home h1 span {
+  color: red;
+}
+.Home p {
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.btn {
+  display: inline-block;
+  background: red;
+  color: #fff;
+  padding: 8px 34px;
+  margin: 30px 0;
+  border-radius: 6px;
+  transition: color 0.2s ease;
+}
+
+.btnn:hover {
+  background: #0398f7;
+}
+
+.typing > * {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingAnim 3s steps(16);
+}
+
+@keyframes typingAnim {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .kanan img {
+    width: 450px;
+    padding-top: 30px;
+  }
+  .Home h3 {
+    font-size: 28px;
+  }
+  .Home h1 {
+    font-weight: bold;
+    font-size: 47px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .Home h3,
+  .Home p,
+  .Home h1 {
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    margin: 30px 30%;
+    left: 50%;
+  }
+
+}
+
+@media screen and (min-width: 991px) {
+  .gambar1 img{
+    padding-right: 115px;
+  }
+  .gambar2 img{
+    padding-right: 85px;
+  }
+  .gambar3 img{
+    padding-right: 60px;
+  }
+
+  .yt iframe{
+    width: 200;
+  }
+}
+
+.video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; } .video-container iframe, .video-container object, .video-container embed { position: absolute; top: 0; left: 0; width: 100%; }
+
+
+
+/*view*/
+/*==================================================================================*/
+.box {
+  border-style: solid;
+  border-color: #8ce1f3;
+  border-width: 10px;
+}
+
+.view-img .box img {
+  width: 350px;
+  box-shadow: 0.5px 2px 7px;
+}
+.view-img .box-kcl img {
+  width: 170px;
+}
+
+@media screen and (max-width: 1199px) {
+  .view-img .box img {
+    width: 300px;
+  }
+  .view-img .box-kcl img {
+    width: 140px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .view-img .box-kcl img {
+    display: none;
+  }
+}
+/* =============== */
+.about-kanan p {
+  text-align: justify;
+  text-indent: 90px;
+  padding: 10px 10px;
+}
+
+.start-btn a {
+  background: red;
+  color: #fff;
+  border-radius: 6px;
+  transition: color 0.2s ease;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.start-btn a:hover {
+  background: #0398f7;
+}
+
+.About img {
+  width: 400px;
+}
+
+
+
+@media screen and (max-width: 991px) {
+  .About .container img {
+    width: 100%;
+    padding: 0 20px;
+  }
+  .About .container p {
+    padding: 20px 20px;
+  }
+  .start-btn a {
+    margin: 0 20px;
+  }
+
+}
+@media screen and (max-width: 1199px) {
+  .About img {
+    width: 380px;
+  }
+}
+
+.kotak-luar {
+  background-color: #8ce1f3;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.box-impro{
+    width: 200px;
+    height: 190px;
+    background: white;
+    margin: 20px 35px;
+    border-radius: 13px;
+    justify-content: center;
+  }
+}
+
+h6{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+
+.footer {
+  width: 100%;
+  box-shadow: 2px 0.1px 7px #949494;
+  margin-top: 40px;
+  margin-bottom: -20;
+}
+
+.footer p {
+  text-align: center;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+.login {
+  margin-bottom: 0px;
+  padding: 0px;
+  background: url(https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg)
+    no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  height: 100vh;
+}
+
+.login-box {
+  width: 380px;
+  height: 500px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  padding: 50px;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+}
+.login-box h2 {
+  color: #2297e8;
+  font-size: 40px;
+}
+.login-box h4 {
+  font-size: 13px;
+}
+.login-box h3 {
+  font-size: 25px;
+  margin: 25px 0;
+}
+
+.login-box p {
+  font-size: 13px;
+  text-align: left;
+  color: black;
+}
+
+.login-box .tempat-input {
+  margin: 10px 0;
+}
+
+.login-box .tempat-input input {
+  width: 100%;
+  outline: none;
+  height: 30px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+}
+
+.login-box .tempat-login input {
+  width: 70%;
+  outline: none;
+  height: 30px;
+  margin-top: 40px;
+  border: 1px solid lightgrey;
+  border-bottom-width: 2px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  background: #2297e8;
+  transition: color 0.1s ease;
+}
+
+.login-box .tempat-login input:hover {
+  background: #41b0fd;
+}
